@@ -1,5 +1,12 @@
 package red.amfam.tests;
 
-public class TestClass {
+import org.testng.annotations.Test;
+import red.amfam.base.BaseClass;
 
+public class TestClass extends BaseClass{
+
+	@Test
+	public void homepage() {
+		
+	}
 }
